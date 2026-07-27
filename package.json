@@ -20,7 +20,7 @@
   "optionalDependencies": {
     "@rolldown/binding-linux-x64-gnu": "1.2.0",
     "@rolldown/binding-linux-x64-musl": "1.2.0",
-    "lightningcss-linux-x64-gnu": "1.32.0",
+    "lightningcss-linux-x64-gnu": "1.33.0",
     "lightningcss-linux-x64-musl": "1.32.0"
   },
   "devDependencies": {
