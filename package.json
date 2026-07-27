@@ -21,7 +21,7 @@
     "@rolldown/binding-linux-x64-gnu": "1.2.0",
     "@rolldown/binding-linux-x64-musl": "1.2.0",
     "lightningcss-linux-x64-gnu": "1.33.0",
-    "lightningcss-linux-x64-musl": "1.32.0"
+    "lightningcss-linux-x64-musl": "1.33.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
