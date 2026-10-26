@@ -2,6 +2,12 @@
 # review-stack). Mirrors this repo's CI (.github/workflows/ci.yml, Node 24), enumerated
 # because the repo has no single umbrella target. Prereq: `npm ci` (or npm install) since
 # node_modules is gitignored.
+[prep_pr]
+# Cost in the machine-wide gate pool (cc-orchestrator 0.107.0; inert until a
+# [pool] budget exists in ~/.claude/gate-queue/config.toml). Measured 2026-10-26
+# against budget 10 on a 10-core Mac: gate ~1.7 cores avg.
+weight = 2
+
 [[prep_pr.steps]]
 name = "lint"
 run = "npm run lint"
